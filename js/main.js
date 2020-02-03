@@ -3,6 +3,12 @@
 var gProjects;
 
 $(document).ready(function () {
+  window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
   var id = 1;
   gProjects = [
     ['Snake', 'Agility game', 'https://avrahamba.github.io/snake/', 'labels', 'January 2020','650','700'],
