@@ -8,7 +8,7 @@ $(document).ready(function () {
     ['Snake', 'Agility game', 'https://avrahamba.github.io/snake/', 'labels', 'January 2020','650','700'],
     ['Pacman', 'Agility game', 'https://avrahamba.github.io/pacman/', 'labels', 'January 2020','650','700'],
     ['Minesweeper', 'Thinking game', 'https://avrahamba.github.io/Minesweeper/', 'labels', 'January 2020','650','700'],
-    ['Tuch Nums', 'Agility game', 'https://avrahamba.github.io/touch-nums/', 'labels', 'January 2020','570','500'],
+    ['Touch Nums', 'Agility game', 'https://avrahamba.github.io/touch-nums/', 'labels', 'January 2020','570','500'],
     ['Chess', 'Double thinking game', 'https://avrahamba.github.io/chess/', 'labels', 'January 2020','450','500'],
     ['Sokoband', 'Thinking game', 'https://avrahamba.github.io/sokoband/', 'labels', 'January 2020','420','500']
   ].map((project) => createProject(id++, project[0], project[1], project[2], project[3], project[4], project[5], project[6]));
